@@ -17,6 +17,10 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+nav .color {
+    color: #FF5400;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -167,6 +171,7 @@ nav ul {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 800;
+    margin-bottom: 24px;
 }
 
 .choose-content p {
@@ -178,6 +183,11 @@ nav ul {
 .choose-cards {
     display: flex;
     gap: 10px;
+    margin-bottom: 10px;
+}
+
+.choose-container {
+    position: relative;
 }
 
 .choose-cards .card-1 {
@@ -200,9 +210,10 @@ nav ul {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    margin-top: 10px;
     padding: 30px;
     max-width: 570px;
+    position: relative;
+    margin: 0 auto;
 }
 
 /* newsletter section */
@@ -390,5 +401,7 @@ hr {
     }
 
 
-
+    .input-button {
+        padding: 0;
+    }
 }
