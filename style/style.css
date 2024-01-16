@@ -112,9 +112,6 @@ nav ul {
     font-weight: 400;
 }
 
-/* .happy-travel-section .input-button input[type="text"] {
-    padding: 16 84 16 16;
-} */
 
 
 .input-button {
@@ -138,6 +135,7 @@ nav ul {
 
 .popular-content ul li {
     margin-bottom: 24px;
+    margin-left: 30px;
 }
 
 /* Destination Section */
@@ -399,7 +397,6 @@ hr {
         margin: 0 auto;
 
     }
-
 
     .input-button {
         padding: 0;
