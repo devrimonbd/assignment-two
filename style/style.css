@@ -306,6 +306,24 @@ nav ul {
 
 }
 
+.news-img {
+    position: relative;
+}
+
+.news-img-btn {
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    transform: rotate(-30deg);
+}
+
+/* footer section styles */
 .footer {
     background: rgba(19, 19, 24, 0.05);
 }
@@ -465,5 +483,20 @@ hr {
     .place-container {
         flex-direction: column;
         margin-top: 35px;
+    }
+
+    .news-img {}
+
+    .news-img-btn {
+        border-radius: 16px;
+        background: #FF5400;
+        padding: 20px;
+        color: white;
+        text-align: center;
+        width: 40%;
+        position: absolute;
+        left: 45%;
+        top: 60%;
+        transform: rotate(-20deg);
     }
 }
