@@ -44,10 +44,6 @@ nav ul {
     gap: 20px;
 }
 
-
-
-
-
 .happy-travel-section {
     margin-bottom: 100px;
 }
@@ -219,6 +215,48 @@ nav ul {
     position: relative;
     margin: 0 auto;
 }
+
+/* Place section */
+.place-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.place-container .place-content h2 {
+    margin-bottom: 20px;
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    width: 400px;
+}
+
+.place-container .place-content p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.place-container .place-content ul {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.place-container .place-content ul .li-1 {
+    margin-bottom: 16px;
+}
+
+.place-container img {
+    margin-top: 30px;
+}
+
+
 
 /* newsletter section */
 .news-section {
@@ -422,5 +460,10 @@ hr {
         border-radius: 5px;
         border: none;
 
+    }
+
+    .place-container {
+        flex-direction: column;
+        margin-top: 35px;
     }
 }
